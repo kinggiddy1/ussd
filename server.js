@@ -17,7 +17,7 @@ app.post('/ussd', (req, res) => {
     let textValue = text.split('*');
     switch (textValue[0]) {
         case '':
-            response = `CON Welcome to MyService
+            response = `CON Welcome to The Focal Media
 1. Check Balance
 2. Buy Airtime`;
             break;

@@ -25,7 +25,7 @@ app.post('/ussd', (req, res) => {
             response = `END Your balance is RWF 500`;
             break;
         case '2':
-            response = `END You have bought airtime successfully`;
+            response = `END Select Services`;
             break;
         default:
             response = `END Invalid choice`;

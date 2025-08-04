@@ -19,7 +19,7 @@ app.post('/ussd', (req, res) => {
         case '':
             response = `CON Welcome to The Focal Media
 1. Check Balance
-2. Buy Airtime`;
+2. Make Order`;
             break;
         case '1':
             response = `END Your balance is RWF 500`;

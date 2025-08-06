@@ -53,4 +53,4 @@ app.post('/ussd', (req, res) => {
 
 app.listen(3000, () => {
     console.log('USSD app running on port 3000');
-});   
+});    
